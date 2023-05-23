@@ -1,0 +1,39 @@
+#timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 5rem;
+    font-weight: bold;
+    height: 100vh;
+  }
+  
+  #time {
+    margin-bottom: 1rem;
+  }
+  .start{
+    margin-bottom: 20px;
+  }
+  
+  button {
+    font-size: 2rem;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #f6a42a;
+    color: white;
+    cursor: pointer;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  button:active {
+    background-color: #ef430e;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
